@@ -1,0 +1,164 @@
+html {
+    display:flex;
+    flex-direction: column;
+  }
+
+body {
+    background-color: white;
+    align-content: left;
+    font-size: 4vw;
+}
+
+#title {
+    color: white;
+    font-family: Imbue;
+    background-color: black;
+    font-size: 4.3vw;
+    flex-direction: row;
+    padding-left: 3vw;
+    padding-top: 2.3vw;
+    padding-bottom: 1.5vw;
+}
+
+#titlehdr2 {
+    color: rgba(255, 255, 255, 0);
+    font-family: Imbue;
+    background-color: rgb(255, 215, 128);
+    font-size: 0.4vw;
+    flex-direction: row;
+}
+
+#titlehdr3 {
+    color: rgba(255, 255, 255, 0);
+    font-family: Imbue;
+    background-color: rgb(255, 182, 25);
+    font-size: 0.18vw;
+    flex-direction: row;
+}
+
+#chickimg {
+    width: 3vw;
+    height:3vw;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    scale: 2;
+    padding-right:5vw;
+}
+
+#sauceimg {
+    width: 8vw;
+    height:15vw;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    scale: 1.5;
+    padding-right:5vw;
+}
+
+
+#txtbox {
+    padding-bottom: 0.5vw;
+    font-size: 1.4vw;
+    text-align: left;
+    padding-top: 2vw;
+}
+
+#txtboxS {
+    padding-top: 1vw;
+    padding-right: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 0vw;
+    padding-left: 1vw;
+    font-size: 1.7vw;
+    text-align: left;
+}
+
+#txtbox1 {
+    padding-right:4vw;
+    padding-left: 4vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    margin: 1vw;
+    font-size: 1.5vw;
+    background-image: url("image 7.png");
+    border-radius: 10px;
+}
+#txtbox2 {
+    padding-right:5vw;
+    padding-left: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin: 1vw;
+    font-size: 1.5vw;
+    background-image: url("image 8.png");
+    border-radius:10px;
+}
+
+.item-container {
+    display: flex;
+    text-align:left;
+    align-items: left;
+    flex-wrap: wrap;
+    font-size: 4vw;
+}
+
+.gallery-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display:flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .gallery-container1 {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display:flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin:4vw;
+  }
+
+#scrolltxt {
+    font-size: 1.8vw;
+    margin:50px;
+    text-align: left;
+}
+
+.down-container {
+    align-self: center;
+    display: flex;
+    flex-basis: 1 1 auto;
+    text-align: center;
+    background-image: url("image 6.png");
+    margin: 0;
+    justify-content: start;
+}
+
+#down-txtbox {
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    align-self: center;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: start;
+    padding: 10vw;
+    text-align: left;
+    font-weight: 200;
+}
+
+.gallery-container3 {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin:4vw;
+  }
+
+img {
+    height: 100%;
+}
